@@ -28,7 +28,7 @@ body {
 a.button:link, a.button:visited {
 	background-color: #d3d3d3;
 	color: black;
-	font-family: verdana;
+	font-family: 'Fjalla One', sans-serif;
 	padding: 15px 20px;
 	text-align: center;
 	text-decoration: none;
@@ -41,7 +41,7 @@ a.button:hover, a.button:active {
 }
 
 a:link, a:visited {
-	color: blue;
+	color: black;
 }
 
 a:hover, a:active {
@@ -50,9 +50,8 @@ a:hover, a:active {
 
 #name {
 	text-align: center;
-	font-family: verdana;
-	font-size: 300%;
-	font-weight: bold;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 450%;
 	padding-top: 60px;
 }
 
@@ -63,8 +62,8 @@ a:hover, a:active {
 
 .title {
 	text-align: center;
-	font-family: verdana;
-	font-size: 300%;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 400%;
 	font-weight: normal;
 }
 
@@ -97,8 +96,8 @@ a.img_link:hover {
 }
 
 #profile_bio {
-	font-family: verdana;
-	font-size: 20px;
+	font-family: 'Questrial', sans-serif;
+	font-size: 25px;
 	padding-bottom: 200px;
 }
 
@@ -113,47 +112,50 @@ a.img_link:hover {
 	color: black;
 }
 
+.row{
+	display: flex;
+}
+
+.column {
+	display: flex;
+	padding: 5px;
+}
+
 .footer_title {
 	top: -45px;
 	margin-left: 25px;
 	position: relative;
-	font-family: verdana;
-	font-size: 300%;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 450%;
 	font-weight: normal;
 }
 
 #footer_email {
-	top: -30px;
+	top: -50px;
 	margin-left: 29px;
 	position: relative;
-	font-family: verdana;
-	font-size: 25px;
-	font-weight: normal;
+	font-size: 55px;
 }
 
 #footer_linked_in {
-	top: -15px;
+	top: -50px;
 	margin-left: 29px;
 	position: relative;
-	font-family: verdana;
-	font-size: 25px;
-	font-weight: normal;
+	font-size: 30px;
 }
 
 #footer_mobile {
-	top: 0px;
+	top: -50px;
 	margin-left: 29px;
 	position: relative;
-	font-family: verdana;
-	font-size: 25px;
-	font-weight: normal;
+	font-size: 30px;
 }
 
 #footer_copyright {
 	bottom: -50px;
 	margin-left: 29px;
 	position: relative;
-	font-family: verdana;
-	font-size: 15px;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 20px;
 	font-weight: normal;
 }
