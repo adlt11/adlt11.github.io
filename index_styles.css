@@ -22,12 +22,16 @@ body {
 }
 
 #logo {
-	float: left;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: inline-block;
+	
 }
 
 #toolbox {
-	float: left;
-	margin-left: 650px; 
+	margin-left: 650px;
+	display: inline-block;
 }
 
 a.button:link, a.button:visited {
