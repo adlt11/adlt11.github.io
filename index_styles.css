@@ -23,11 +23,11 @@ body {
 
 #logo {
 	display: inline-block;
-	margin-right: 10px;
 }
 
 #toolbox {
 	display: inline-block;
+	margin-left: 775px; 
 }
 
 a.button:link, a.button:visited {
