@@ -30,8 +30,8 @@ body {
 }
 
 #toolbox {
-	margin-left: 780px;
-	
+	margin-left: 800px;
+	display: inline-block;
 }
 
 a.button:link, a.button:visited {
@@ -61,7 +61,7 @@ a:hover, a:active {
 	text-align: center;
 	font-family: 'Fjalla One', sans-serif;
 	font-size: 450%;
-	padding-top: 60px;
+	padding-top: 100px;
 }
 
 #projects {
