@@ -28,6 +28,19 @@ body {
 	border-bottom: 6px solid grey;
 }
 
+#logo {
+	position: absolute;
+	top: 20px;
+	left: 40px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+#shopBLT_logo {
+	margin-left: -12px;
+	display: inline-block;
+}
+
 #description {
 	text-align: center;
 	font-family: 'Questrial', sans-serif;
