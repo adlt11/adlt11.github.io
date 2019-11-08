@@ -21,6 +21,10 @@ body {
 	border: 5px solid grey;
 }
 
+#logo {
+	text-align: left;
+}
+
 #toolbox {
 	text-align: right;
 }
