@@ -23,14 +23,14 @@ body {
 
 #logo {
 	position: absolute;
-	top: 30px;
-	left: 60px;
+	top: 25px;
+	left: 55px;
 	display: inline-block;
 	
 }
 
 #toolbox {
-	margin-left: 1075px;
+	margin-left: 1015px;
 	display: inline-block;
 }
 
