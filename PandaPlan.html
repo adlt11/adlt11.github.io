@@ -1,371 +1,341 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!--
-WRITTEN BY: ALONSO DE LA TORRE VEGA
-EMAIL: DELATOR2@UCI.EDU
--->
+<!-- WRITTEN BY: ALONSO DE LA TORRE VEGA -->
 
-<head>
-	<meta charset="utf-8"/>
-	<meta name="author" content="Alonso De La Torre Vega"/>
-	<meta name="description" content="Page where my first project is explained. People get redirected to this page when they click on the image for more details."/>
-	<link rel="stylesheet" href="PandaPlan_styles.css">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Alonso De La Torre Vega"/>
+	<meta name="description" content="Webpage where I describe one of my projects: PandaPlan."/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Personal CSS -->
+    <link rel="stylesheet" href="PandaPlan_styles.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fjalla+One|Questrial&display=swap">
+
 	<script src="https://kit.fontawesome.com/52309b03c3.js" crossorigin="anonymous"></script>
-	<title>PandaPlan</title>	
-</head>
+	<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-<body>
+	<title>PandaPlan</title>
+  </head>
 
-<!--
-TOPMOST OF MY PAGE. THIS IS WHERE THE PICTURE, TITLE, AND SHORT DESCRIPTION OF MY PROJECT ARE LOCATED.
--->
-<div id="header">
-	<div id="logo">
-		<a href="index.html">
-			<img src="PortfolioPictures/logo.jpg" alt="My personal logo for my portfolio." width="150" height="100">
-		</a>
-	</div>
+  <body>
+  	<nav class="navbar navbar-expand-md navbar-default navbar-light static-top">
+  			<a class="navbar-brand" href="HomePage.html">
+  				<img src="PortfolioPictures/logo.jpg" width="150" height="100" alt="My personal logo for my portfolio.">
+  			</a>
+  			<div class="navbar-header">
+            	<img src="PortfolioPictures/Panda_logo.jpg" alt="" width="200" height="160">
+        	</div>
+  			
+  			<!--<img src="PortfolioPictures/Panda_logo.jpg" class="center-img" alt="Panda logo for PandaPlan." width="200" height="160"/>-->
+  	</nav>
 
-	<div id="panda_logo">
-		<img src="PortfolioPictures/Panda_logo.jpg" alt="Panda logo for PandaPlan." width="200" height="160"/>
-	</div>
+  	<div class="header">
+  		<h1 class="title">
+  			PandaPlan
+  		</h1>
 
-	<h1 id="title">PandaPlan</h1>
+  		<p class="description py-3 py-sm-5">
+  			My introduction to project re-design. Renovated <br>
+  			existing website to an entirely new product.
+  		</p>
+  	</div>
 
-	<p id="description">My introduction to project redesign. Renovated<br>
-			       	existing website to an entirely new product.<br>
-	</p>
+  	<div class="container">
+  		<div class="row">
+  			<div class="col-sm-6 text-center py-4 py-sm-5">
+  				<h1 class="detail_headers">Team</h1>
+  				<p class="detail_bio pt-1">6 students</p>
+  			</div>
+  			<div class="col-sm-6 text-center py-4 py-sm-5">
+  				<h1 class="detail_headers">My Roles</h1>
+  				<p class="detail_bio pt-1">Research, surveys, sketches,<br> 
+  									       wireframes, prototype</p>
+  			</div>
+  		</div>
 
-</div>
+  		<div class="row">
+  			<div class="col-sm-6 text-center py-4 py-sm-5">
+  				<h1 class="detail_headers">Timeline</h1>
+  				<p class="detail_bio pt-1">10 weeks</p>
+  			</div>
+  			<div class="col-sm-6 text-center py-4 py-sm-5">
+  				<h1 class="detail_headers">Deliverables</h1>
+  				<p class="detail_bio pt-1">Surveys, sketches,<br> 
+  										   wireframes, prototypes</p>
+  			</div>
+  		</div>
 
-<!--
-THIS LONG DIV CREATES THE MIDDLE STRIP OF WHITE SHOWING IN THE BACKGROUND. THIS GOES ALL THE WAY DOWN TO THE BOTTOM OF THE PAGE. 
--->
-<div id="background">
+  		<div class="row">
+  			<div class="col-sm-12 text-center py-4 py-sm-5">
+  				<h1 class="detail_headers">Tools</h1>
+  				<p class="detail_bio pt-1">Sketch, Balsamiq Mockups,<br> 
+  										   Google Forms, pen & paper</p>
+  			</div>
+		</div>
 
-	<!--
-	THIS IS THE NEXT SECTION AFTER THE TOPMOST. IT CONTAINS THE DIFFERENT PROJECT DETAILS INVOLVED IN THE PROJECT. 
-	-->
-	<div id="team">
-	<h1 class="detail_headers">Team</h1>
-	<p class="detail_bio">6 students</p>
-	</div>
+	<hr class="w-100">
 
-	<div id="roles">
-	<h1 class="detail_headers">My Roles</h1>
-	<p class="detail_bio">Research, surveys,<br>
-			      sketches, wireframes,<br>
-			      prototype</p>
-	</div>
+		<div class="row">
+  			<div class="col-sm-5 text-center py-3 py-sm-4">
+  				<h1 class="proj_title">Overview</h1>
+  			</div>
+  			<div class="col-sm-6 text-center py-3 py-sm-5">
+  				<p class="info">Redesigning <a href="https://www.when2meet.com" target="blank">When2Meet</a> to an entirely new website, to attempt to reach its full potential.</p>
 
-	<div id="timeline">
-	<h1 class="detail_headers">Timeline</h1>
-	<p class="detail_bio">10 weeks</p>
-	</div>
+  				<p class="info">Working in a team, we wanted to create a better version of
+				<a href="https://www.when2meet.com" target="blank">When2Meet</a> given that as it stands, it could benefit from a redesign. We wanted to primarily focus on the aesthetics of the site, since most of the site’s functionalities were heading in the right direction. Going into it, we had a strong sense that what drove users away the most was its visuals; it was old and unappealing, almost skeptical in a way. In the end, the idea was to create a whole new website, our own version of <a href="https://www.when2meet.com" target="blank">When2Meet.</a></p>
+  			</div>
+  		</div>
 
-	<div id="deliverables">
-	<h1 class="detail_headers">Deliverables</h1>
-	<p class="detail_bio">Surveys, sketches<br>
-			      wireframes, prototypes</p>
-	</div>
+	<hr class="w-100">
 
-	<div id="tools">
-	<h1 class="detail_headers">Tools</h1>
-	<p class="detail_bio">Sketch, Balsamiq Mockups,<br>
-			      Google Forms, Pen & Paper</p>
-	</div>
+		<div class="row">
+  			<div class="col-sm-5 text-center py-3 py-sm-4">
+  				<h1 class="proj_title">The Problem</h1>
+  			</div>
+  			<div class="col-sm-6 text-center py-3 py-sm-5">
+  				<p class="info"><a href="https://www.when2meet.com" target="blank">When2Meet</a> is a scheduling tool that takes in time schedules from a group of people and produces one big, combined schedule. Using this, people can specifically view what time slots all the people in their group are available. As previously mentioned, although the concept and functionality of this website is good, the current version of <a href="https://www.when2meet.com" target="blank">When2Meet</a> feels outdated and has a lot of room for improvement.</p>
+  			</div>
+  		</div>	
 
-<br>
-<br>
-<hr>
-<br>
+  	<hr class="w-100">
 
-	<!--
-	THIS IS THE NEXT SECTION AFTER THE DETAILS SECTION. IT EXPLAINS THE OVERVIEW OF THE PROJECT. 
-	-->
-	<h1 class="proj_title">Overview</h1>
-	<p class="info">Redesigning <a href="https://www.when2meet.com" target="blank">When2Meet</a>
-			to an entirely new website, to try and reach its full potential.</p>
-
-	<p class="info">Working in a team, we wanted to create a better version of
-			<a href="https://www.when2meet.com" target="blank">When2Meet</a> given that as it 
-			stands, it could benefit from a redesign. We wanted to primarily focus on the aesthetics
-			of the site, since most of the site’s functionalities were heading in the right direction.
-			Going into it, we had a strong sense that what drove users away the most was its visuals;
-			it was old and unappealing, almost skeptical in a way. In the end, the idea was to create
-			a whole new website, our own version of <a href="https://www.when2meet.com" target="blank">When2Meet.</a></p>
-
-<br>
-<br>
-<hr>
-<br>
-
-	<!--
-	THIS IS THE NEXT SECTION AFTER THE OVERVIEW SECTION. IT EXPLAINS BOTH THE PROBLEM AND THE SOLUTION OF THE PROJECT. 
-	-->
-	<h1 class="proj_title">The Problem</h1>
-	<p class="info"><a href="https://www.when2meet.com" target="blank">When2Meet</a> is a scheduling
-			tool that takes in time schedules from a group of people and produces one big, combined 
-			schedule. Using this, people can specifically view what time slots all the people in their group are available. As previously mentioned, although the concept and functionality of this website is good, the current version of <a href="https://www.when2meet.com" target="blank">When2Meet</a> feels outdated and has a lot of room for improvement.</p>
-<br>
-
-	<h1 class="proj_title">The Solution</h1>
-	<p class="info">Use <a href="https://www.when2meet.com" target="blank">When2Meet</a> concurrently
-			with other scheduling websites and compare their usability. We would then incorporate
-			ideas we believed worked well with a scheduling website, as well as take note of the aesthetics. Much of the decisions we made were based on user-research and after gathering
-			some evidence, we concluded that we needed to incorporate the following changes:
+ 		<div class="row">
+  			<div class="col-sm-5 text-center py-3 py-sm-4">
+  				<h1 class="proj_title">The Solution</h1>
+  			</div>
+  			<div class="col-sm-6 text-center py-3 py-sm-5">
+  				<p class="info">Use <a href="https://www.when2meet.com" target="blank">When2Meet</a> concurrently with other scheduling websites and compare their usability. We would then incorporate ideas we believed worked well with a scheduling website, as well as take note of the aesthetics. Much of the decisions we made were based on user-research and after gathering some evidence, we concluded that we needed to incorporate the following changes:
 					<ul class="info">
 			    		    <li>Change the current aesthetics of the website (color, font, etc.)</li>
 			    		    <li>Include a home page for different events</li>
-			    		    <li>Aggregate an event and member page, that lists the different members 	and events a user has</li>
+			    		    <li>Aggregate an event and member page, that lists the different members and events a user has</li>
 			    		    <li>Extend the capability for sharing events (i.e. text messaging)</li>
 					</ul>
+  			</div>
+  		</div>
 
-<br>
-<br>
-<hr>
-<br>
+  	<hr class="w-100">
 
-	<!--
-	THIS IS THE NEXT SECTION AFTER THE PROBLEM/SOLUTION SECTION. IT EXPLAINS THE DESIGN PROCESS OF THE PROJECT IN 4 STEPS. STEP 1 IS RIGHT BELOW THIS SECTION AND IT EXPLAINS THE INITIAL STEPS WE TOOK TO BEGIN THE PROJECT. 
-	-->
-	<h1 class="proj_title">The Design Process</h1>
-	<h2 class="list_headers">1. User Research</h2>
-	<p class="info">Our main method of user-research was a survey. The survey was aimed towards discovering what the current likes/dislikes of <a href="https://www.when2meet.com" target="blank">When2Meet</a> were. Other research conducted was based on our own personal knowledge from previous courses, such as functional/nonfunctional requirements for the website and use-case diagrams.</p>
+  		<div class="row">
+  			<div class="col-sm-12 text-center proj_title py-3 py-sm-4">
+  				The Design Process
+  			</div>
+  		</div>
 
-<br>
-<br>
-<hr>
-<br>
+  		<div class="row">
+  			<div class="col-sm-5 text-left text-sm-center px-4 pt-4 py-sm-4">
+  				<h1 class="list_headers">1. User Research</h1>
+  			</div>
+  			<div class="col-sm-6 text-center px-4 py-2 py-sm-5">
+  				<p class="info">Our main method of user-research was a survey. The survey was aimed towards discovering what the current likes/dislikes of <a href="https://www.when2meet.com" target="blank">When2Meet</a> were. Other research conducted was based on our own personal knowledge from previous courses, such as functional/nonfunctional requirements for the website and use-case diagrams.</p>
+  			</div>
+  		</div>
 
-	<!--
-	THIS IS STEP 2 OF THE 4 STEP DESIGN PROCESS SECTION. IT EXPLAINS THE NEXT STEPS WE TOOK IN ORDER TO CONTINUE THE PROJECT. 
-	-->
-	<h2 class="list_headers">2. Data Analysis</h2>
-	<p class="info">Survey insights:</p>
-	<p class="info">When it came to the login process and a sense of reliability from the website, people had no problem with these two aspects. However, when it came to the layout of the website users agreed that fonts/colors could be improved. Along with that, the methods used to input individual time schedules had room for improvement. The overall processes users were involved with, were easy enough to understand.</p>
+  		<div class="row">
+  			<div class="col-sm-5 text-left text-sm-center px-4 pt-4 py-sm-4">
+  				<h1 class="list_headers">2. Data Analysis</h1>
+  			</div>
+  			<div class="col-sm-6 text-center px-4 py-2 py-sm-5">
+  				<p class="info">Survey insights:</p>
 
-<br>
-<br>
-<hr>
-<br>
-	<!--
-	THIS IS STEP 3 OF THE 4 STEP DESIGN PROCESS SECTION. IT EXPLAINS THE FINISHING TOUCHES WE MADE TO COMPLETE THE PROJECT. 
-	-->
+				<p class="info">When it came to the login process and a sense of reliability from the website, people had no problem with these two aspects. However, when it came to the layout of the website users agreed that fonts/colors could be improved. Along with that, the methods used to input individual time schedules had room for improvement. The overall processes users were involved with, were easy enough to understand.</p>
+  			</div>
+  		</div>
 
-	<h2 class="list_headers">3. Low-Fidelity Wireframes</h2>
-	<p class="info">After conducting user research and gathering data, we decided to make our first few wireframes of the website. These low-fidelity wireframes incorporated a big change in aesthetics, as well as our own personal ideas. We created our own logo and added new pages aside from <a href="https://www.when2meet.com" target="blank">When2Meet's</a> default ones. This is what we believed the functional prototype should look like in the end.</p>
+  		<div class="row">
+  			<div class="col-sm-5 text-left text-sm-center px-4 pt-4 py-sm-4">
+  				<h1 class="list_headers">3. Low-Fidelity<br> 
+  										    Wireframes</h1>
+  			</div>
+  			<div class="col-sm-6 text-center px-4 py-2 py-sm-5">  				
+				<p class="info">After conducting user research and gathering data, we decided to make our first few wireframes of the website. These low-fidelity wireframes incorporated a big change in aesthetics, as well as our own personal ideas. We created our own logo and added new pages aside from <a href="https://www.when2meet.com" target="blank">When2Meet's</a> default ones. This is what we believed the functional prototype should look like in the end.</p>
+  			</div>
+  		</div>
 
-<br>
+  		<div class="row">
+  			<div class="col-sm-6 text-center pl-sm-5 py-3 py-sm-5">
+  				<h1 class="img_headers">Login/Sign Up Page</h1>
+  				<img class="imgs img-fluid" src="PandaPlanWireframes/1home_page_copy.jpg" alt="PandaPlan wireframe picture of login/sign up page."/>
+  			</div>
+  
+  			<div class="col-sm-6 text-center pr-sm-5 py-3 py-sm-5">
+  				<h1 class="img_headers">Sign Up Page</h1>
+  				<img class="imgs img-fluid" src="PandaPlanWireframes/2signuppage_copy.jpg" alt="PandaPlan wireframe picture of sign up page."/>
+  			</div>
+  		</div>
 
-	<div class="row">
-		<div class="column">
-			<h2 class="left_img_headers">Login/Sign Up Page</h2>
-			<img src="PandaPlanWireframes/1home_page_copy.jpg" alt="PandaPlan wireframe picture of login/sign up page." width="400" height="220" class="left_img"/>
-		</div>
+  		<div class="row">
+  			<div class="col-sm-6 text-center pl-sm-5 py-3 py-sm-5">
+  				<h1 class="img_headers">Home Page</h1>
+  				<img class="imgs img-fluid" src="PandaPlanWireframes/3loginhome_copy.jpg" alt="PandaPlan wireframe picture of home page."/>
+  			</div>
+  			<div class="col-sm-6 text-center pr-sm-5 py-3 py-sm-5">
+  				<h1 class="img_headers">Create Event Page</h1>
+  				<img class="imgs img-fluid" src="PandaPlanWireframes/5displaynamepage_copy.jpg" alt="PandaPlan wireframe picture of create event page."/>
+  			</div>
+  		</div>
 
-		<div class="column">
-			<h2 class="right_img_headers">Sign Up Page</h2>
-			<img src="PandaPlanWireframes/2signuppage_copy.jpg" alt="PandaPlan wireframe picture of sign up page." width="400" height="220" class="right_img"/>
-		</div>
-	</div>
+  		<div class="row">
+  			<div class="col-sm-6 text-center pl-sm-5 py-3 py-sm-5">
+  				<h1 class="img_headers">Week Days Calendar Page</h1>
+  				<img class="imgs img-fluid" src="PandaPlanWireframes/4calendartypedays_copy.jpg" alt="PandaPlan wireframe picture of a weekday calendar."/>
+  			</div>
+  			<div class="col-sm-6 text-center pr-sm-5 py-3 py-sm-5">
+  				<h1 class="img_headers">Specific Dates Calendar Page</h1>
+  				<img class="imgs img-fluid" src="PandaPlanWireframes/4.1calendartypemonth_copy.jpg" alt="PandaPlan wireframe picture of a monthly calendar."/>
+  			</div>
+  		</div>
 
-<br>
+  		<div class="row">
+  			<div class="col-sm-6 text-center pl-sm-5 py-3 py-sm-5">
+  				<h1 class="img_headers">Invite Member Page</h1>
+  				<img class="imgs img-fluid" src="PandaPlanWireframes/6shareevent_copy.jpg" alt="PandaPlan wireframe picture of member invite page."/>
+  			</div>
+  			<div class="col-sm-6 text-center pr-sm-5 py-3 py-sm-5">
+  				<h1 class="img_headers">Mobile Invite Page</h1>
+  				<img class="imgs portrait_img" src="PandaPlanWireframes/Mobile_Invite_copy.jpg" alt="PandaPlan wireframe picture of mobile invite page."/>
+  			</div>
+  		</div>
 
-	<div class="row">
-		<div class="column">
-			<h2 class="left_img_headers">Home Page</h2>
-			<img src="PandaPlanWireframes/3loginhome_copy.jpg" alt="PandaPlan wireframe picture of home page." width="400" height="220" class="left_img"/>
-		</div>
+  		<div class="row">
+  			<div class="col-sm-6 text-center pl-sm-5 py-3 py-sm-5">
+  				<h1 class="img_headers">All Schedules Page</h1>
+  				<img class="imgs img-fluid" src="PandaPlanWireframes/11clickfirstevent_copy.jpg" alt="PandaPlan wireframe picture of schedules combined."/>
+  			</div>
+  			<div class="col-sm-6 text-center pr-sm-5 py-3 py-sm-5">
+  				<h1 class="img_headers">Events Page</h1>
+  				<img class="imgs img-fluid" src="PandaPlanWireframes/14clicknotifications_copy.jpg" alt="PandaPlan wireframe picture of the events page."/>
+  			</div>
+  		</div>
 
-		<div class="column">
-			<h2 class="right_img_headers">Create Event Page</h2>
-			<img src="PandaPlanWireframes/5displaynamepage_copy.jpg" alt="PandaPlan wireframe picture of create event page." width="400" height="220" class="right_img"/>
-		</div>
-	</div>
+  		<div class="row justify-content-center">
+  			<div class="col-sm-7 text-center py-3 py-sm-5">
+  				<h1 class="img_headers">Members Page</h1>
+  				<img class="imgs img-fluid" src="PandaPlanWireframes/15clickmembers_copy.jpg" alt="PandaPlan wireframe picture of all the members page."/>
+  			</div>
+  		</div>
 
-<br>
+  		<div class="row">
+  			<div class="col-sm-5 text-left text-sm-center px-4 pt-4 py-sm-4">
+  				<h1 class="list_headers">4. High-Fidelity<br> 
+  										    Wireframes</h1>
+  			</div>
+  			<div class="col-sm-6 text-center px-4 py-2 py-sm-5">  				
+				<p class="info">Some time after the project class was over, I decided to go back and create high-fidelity wireframes, from the low-fidelity ones, using Sketch. I had just obtained Sketch and thought it would be good practice for me to do so. Also using Sketch, I was able to use its basic prototyping functionalities to link different pages within the project; so clicking a button on one page can redirect you to the according page. Given that it was my first time, I would say it didn't go too bad.</p>
+  			</div>
+  		</div>
 
-	<div class="row">
-		<div class="column">
-			<h2 class="left_img_headers">Week Days Calendar Page</h2>
-			<img src="PandaPlanWireframes/4calendartypedays_copy.jpg" alt="PandaPlan wireframe picture of a weekday calendar." width="400" height="220" class="left_img"/>
-		</div>
+  		<div class="row">
+  			<div class="col-sm-6 text-center pl-sm-5 py-3 py-sm-5">
+  				<h1 class="img_headers">Login/Sign Up Page</h1>
+  				<img class="imgs img-fluid" src="PandaPlanPrototypes/Login_Sign_Up_Page_copy.jpg" alt="PandaPlan prototype picture of login/sign up page."/>
+  			</div>
+  
+  			<div class="col-sm-6 text-center pr-sm-5 py-3 py-sm-5">
+  				<h1 class="img_headers">Sign Up Page</h1>
+  				<img class="imgs img-fluid" src="PandaPlanPrototypes/Sign_Up_Info_Page_copy.jpg" alt="PandaPlan prototype picture of sign up page."/>
+  			</div>
+  		</div>
 
-		<div class="column">
-			<h2 class="right_img_headers">Specific Dates Calendar Page</h2>
-			<img src="PandaPlanWireframes/4.1calendartypemonth_copy.jpg" alt="PandaPlan wireframe picture of a montly calendar." width="400" height="220" class="right_img"/>
-		</div>
-	</div>
+  		<div class="row">
+  			<div class="col-sm-6 text-center pl-sm-5 py-3 py-sm-5">
+  				<h1 class="img_headers">Home Page</h1>
+  				<img class="imgs img-fluid" src="PandaPlanPrototypes/Login_Home_Page_copy.jpg" alt="PandaPlan prototype picture of the home page."/>
+  			</div>
+  
+  			<div class="col-sm-6 text-center pr-sm-5 py-3 py-sm-5">
+  				<h1 class="img_headers">Create Event Page</h1>
+  				<img class="imgs img-fluid" src="PandaPlanPrototypes/Event_Name_Page_copy.jpg" alt="PandaPlan prototype picture of the create event page."/>
+  			</div>
+  		</div>
 
-<br>
+  		<div class="row">
+  			<div class="col-sm-6 text-center pl-sm-5 py-3 py-sm-5">
+  				<h1 class="img_headers">Week Days Calendar Page</h1>
+  				<img class="imgs img-fluid" src="PandaPlanPrototypes/Calendar_WeekDays_Page_copy.jpg" alt="PandaPlan prototype picture of a weekday calendar."/>
+  			</div>
+  
+  			<div class="col-sm-6 text-center pr-sm-5 py-3 py-sm-5">
+  				<h1 class="img_headers">Specific Dates Calendar Page</h1>
+  				<img class="imgs img-fluid" src="PandaPlanPrototypes/Calendar_Specific_Dates_Page_copy.jpg" alt="PandaPlan prototype picture of a monthly calendar."/>
+  			</div>
+  		</div>
 
-	<div class="row">
-		<div class="column">
-			<h2 class="left_img_headers">Invite Member Page</h2>
-			<img src="PandaPlanWireframes/6shareevent_copy.jpg" alt="PandaPlan wireframe picture of member invite page." width="400" height="220" class="left_img"/>
-		</div>
+  		<div class="row">
+  			<div class="col-sm-6 text-center pl-sm-5 py-3 py-sm-5">
+  				<h1 class="img_headers">Invite Member Page</h1>
+  				<img class="imgs img-fluid" src="PandaPlanPrototypes/Invite_Member_Page_copy.jpg" alt="PandaPlan prototype picture of the invite member page."/>
+  			</div>
+  
+  			<div class="col-sm-6 text-center pr-sm-5 py-3 py-sm-5">
+  				<h1 class="img_headers">Mobile Invite Page</h1>
+  				<img class="imgs img-fluid" src="PandaPlanPrototypes/Mobile_Invite_Page_copy.jpg" alt="PandaPlan prototype picture of the mobile invite message."/>
+  			</div>
+  		</div>
 
-		<div class="column">
-			<h2 class="right_img_headers">Mobile Invite Page</h2>
-			<img src="PandaPlanWireframes/Mobile_Invite_copy.jpg" alt="PandaPlan wireframe picture of mobile invite page." width="250" height="220" id="spec_right_img"/>
-		</div>
+  		<div class="row">
+  			<div class="col-sm-6 text-center pl-sm-5 py-3 py-sm-5">
+  				<h1 class="img_headers">All Schedules Page</h1>
+  				<img class="imgs img-fluid" src="PandaPlanPrototypes/Group_Event_Selection_Page_copy.jpg" alt="PandaPlan prototype picture of all the schedules combined."/>
+  			</div>
+  
+  			<div class="col-sm-6 text-center pr-sm-5 py-3 py-sm-5">
+  				<h1 class="img_headers">Events Page</h1>
+  				<img class="imgs img-fluid" src="PandaPlanPrototypes/Events_with_Notification_Page_copy.jpg" alt="PandaPlan prototype picture of the events page."/>
+  			</div>
+  		</div>
 
-	</div>
+  		<div class="row justify-content-center">
+  			<div class="col-sm-7 text-center py-3 py-sm-5">
+  				<h1 class="img_headers">Members Page</h1>
+  				<img class="imgs img-fluid" src="PandaPlanPrototypes/Members_Page_copy.jpg" alt="PandaPlan prototype picture of all the members page."/>
+  			</div>
+  		</div>
 
-<br>
+  	<hr class="w-100">
 
-	<div class="row">
-		<div class="column">
-			<h2 class="right_img_headers">All Schedules Page</h2>
-			<img src="PandaPlanWireframes/11clickfirstevent_copy.jpg" alt="PandaPlan wireframe picture of schedules combined." width="400" height="220" class="left_img"/>
-		</div>
+  		<div class="row">
+  			<div class="col-sm-5 text-center py-3 py-sm-4">
+  				<h1 class="proj_title">Takeaways</h1>
+  			</div>
+  			<div class="col-sm-6 text-center py-3 py-sm-5">
+  				<p class="info">This was my first redesign project and my first project course overall. All in all, I believe my group and I did good considering the project time and scope we were given. In the end, we came up with some sort of visuals using the research data we were able to gather. If we had more time, I'm sure we would've conducted new research methods to gather more data and propose new design concepts as well. Overall, the research and design experience I gained during this time was worth-while; it only got better from here.</p>
 
-		<div class="column">
-			<h2 class="left_img_headers">Events Page</h2>
-			<img src="PandaPlanWireframes/14clicknotifications_copy.jpg" alt="PandaPlan wireframe picture of events page." width="400" height="220" class="right_img"/>
-		</div>
-	</div>
+  				<p class="info">In the future, I would like to take this project further and conduct much more research than what was done here. Additional to that, I would also like to create a functional prototype of the project. I would definitely incorporate some interviews in the project, as well as having some users test the product for aesthetics. I believe the success factor for this project is having good aesthetics.</p>
+  			</div>
+  		</div>
 
-<br>
+  		<div class="row justify-content-center">
+  			<div class="col-5 text-center pt-5 pb-3">
+  				<p class="switches">
+  					<a href="index.html" class="page_switch">&lt; Home Page</a>
+  				</p>
+  			</div>
+  			<div class="col-5 text-center pt-5 pb-3">
+  				<p class="switches">
+  					<a href="shopBLT.html" class="page_switch">Next Project &gt;</a>
+  				</p>
+  			</div>
+  		</div>
+  	</div>
 
-	<div class="row">
-		<div class="column">
-			<h2 class="right_img_headers">Members Page</h2>
-			<img src="PandaPlanWireframes/15clickmembers_copy.jpg" alt="PandaPlan wireframe picture of all members page." width="400" height="220" class="last_img"/>
-		</div>
-	</div>
-
-<br>
-<br>
-<hr>
-<br>
-
-	<!--
-	THIS IS THE LAST STEP OF THE 5 STEP DESIGN PROCESS SECTION. IT EXPLAINS THE FINISHING TOUCHES THAT ONLY I COMPLETED, AFTER THE PROJECT CLASS WAS OVER. 
-	-->
-	<h2 class="list_headers">4. High-Fidelity Wireframes</h2>
-	<p class="info">Some time after the project class was over, I decided to go back and create high-fidelity wireframes, from the low-fidelity ones, using Sketch. I had just obtained Sketch and thought it would be good practice for me to do so. Also using Sketch, I was able to use its basic prototyping functionalities to link different pages within the project; so clicking a button on one page can redirect you to the according page. Given that it was my first time, I would say it didn't go too bad.</p>
-
-<br>
-
-	<div class="row">
-		<div class="column">
-			<h2 class="left_img_headers">Login/Sign Up Page</h2>
-			<img src="PandaPlanPrototypes/Login_Sign_Up_Page_copy.jpg" alt="PandaPlan prototype picture of login/sign up page." width="410" height="240" class="left_img"/>
-		</div>
-
-		<div class="column">
-			<h2 class="right_img_headers">Sign Up Page</h2>
-			<img src="PandaPlanPrototypes/Sign_Up_Info_Page_copy.jpg" alt="PandaPlan prototype picture of sign up page." width="410" height="240" class="right_img"/>
-		</div>
-	</div>
-
-<br>
-
-	<div class="row">
-		<div class="column">
-			<h2 class="left_img_headers">Home Page</h2>
-			<img src="PandaPlanPrototypes/Login_Home_Page_copy.jpg" alt="PandaPlan prototype picture of home page." width="410" height="240" class="left_img"/>
-		</div>
-
-		<div class="column">
-			<h2 class="right_img_headers">Create Event Page</h2>
-			<img src="PandaPlanPrototypes/Event_Name_Page_copy.jpg" alt="PandaPlan prototype picture of create event page." width="410" height="240" class="right_img"/>
-		</div>
-	</div>
-
-<br>
-
-	<div class="row">
-		<div class="column">
-			<h2 class="left_img_headers">Week Days Calendar Page</h2>
-			<img src="PandaPlanPrototypes/Calendar_WeekDays_Page_copy.jpg" alt="PandaPlan prototype picture of week-day calendar." width="410" height="240" class="left_img"/>
-		</div>
-
-		<div class="column">
-			<h2 class="right_img_headers">Specific Dates Page</h2>
-			<img src="PandaPlanPrototypes/Calendar_Specific_Dates_Page_copy.jpg" alt="PandaPlan prototype picture of monthly calendar." width="410" height="240" class="right_img"/>
-		</div>
-	</div>
-
-<br>
-
-	<div class="row">
-		<div class="column">
-			<h2 class="left_img_headers">Invite Member Page</h2>
-			<img src="PandaPlanPrototypes/Invite_Member_Page_copy.jpg" alt="PandaPlan prototype picture of invite member page." width="410" height="240" class="left_img"/>
-		</div>
-
-		<div class="column">
-			<h2 class="right_img_headers">Mobile Invite Page</h2>
-			<img src="PandaPlanPrototypes/Mobile_Invite_Page_copy.jpg" alt="PandaPlan prototype picture of mobile invite page." width="410" height="240" class="right_img"/>
-		</div>
-	</div>
-
-<br>
-
-	<div class="row">
-		<div class="column">
-			<h2 class="left_img_headers">All Schedules Page</h2>
-			<img src="PandaPlanPrototypes/Group_Event_Selection_Page_copy.jpg" alt="PandaPlan prototype picture of schedules combined." width="410" height="240" class="left_img"/>
-		</div>
-
-		<div class="column">
-			<h2 class="right_img_headers">Events Page</h2>
-			<img src="PandaPlanPrototypes/Events_with_Notification_Page_copy.jpg" alt="PandaPlan prototype picture of events page." width="410" 												      height="240" class="right_img"/>
-		</div>
-	</div>
-
-<br>
-	<div class="row">
-		<div class="column">
-			<h2 class="left_img_headers">Members Page</h2>
-			<img src="PandaPlanPrototypes/Members_Page_copy.jpg" alt="PandaPlan prototype picture of all members page." width="410" height="240"
-							     class="last_img"/>
-		</div>
-	</div>
-
-<br>
-<br>
-<hr>
-<br>
-
-	<!--
-	THIS IS THE LAST SECTION OF THE PAGE. IT CONTAINS REFLECTIONS OF THE PROJECT AND ANY LESSONS LEARNED FROM THE PROJECT AS WELL. 
-	-->
-	<h1 class="proj_title">Takeaways</h1>
-	<p class="info">This was my first redesign project and my first project course overall. All in all, I believe my group and I did good considering the project time and scope we were given. In the end, we came up with some sort of visuals using the research data we were able to gather. If we had more time, I'm sure we would've conducted new research methods to gather more data and propose new design concepts as well. Overall, the research and design experience I gained during this time was worth-while; it only got better from here.</p>
-
-	<p class="info">In the future, I would like to take this project further and conduct much more research than what was done here. Additional to that, I would also like to create a functional prototype of the project. I would definitely incorporate some interviews in the project, as well as having some users test the product for aesthetics. I believe the success factor for this project is having good aesthetics.</p>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-<!--
-THIS IS THE FOOTER OF THE PAGE. IT CONTAINS 2 DIFFERENT OPTIONS THAT LEADS THE USER TO DIFFERENT PAGES, AS WELL AS MY PAGE COPYRIGHT. 
--->
-	<div class="row">
-		<div class="column">
-			<p class="footer_info"><a href="index.html" class="page_switch">&lt; Home Page</a></p>
-		</div>
-
-		<div class="column">
-			<p class="footer_info"><a href="shopBLT.html" class="page_switch">Next Project &gt;</a></p>
+  	<div class="footer">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-sm-12 footer_info pt-4">
+					<p class="footer_copyright">© 2020 by Alonso De La Torre Vega</p>
+				</div>
+			</div>
 		</div>
 	</div>
-
-	<div id="footer">
-		<p id="footer_copyright">© 2019 by Alonso De La Torre Vega</p>
-	</div>
-
-</div>
-
-</body>
+  </body>
 </html>

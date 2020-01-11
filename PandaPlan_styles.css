@@ -1,60 +1,64 @@
 html {
 	scroll-behavior: smooth;
-	width: 100%;
-	height: 100%;
-	margin: 0px;
-	overflow-x: hidden;
 }
 
 body {
 	background-color: #69c8a1;
-	margin: 0;
-	position: relative;
-	padding-bottom: 3rem;
 }
 
-#title {
-	text-align: center;
-	font-family: 'Fjalla One', sans-serif;
-	font-size: 350%;
-	font-weight: bold;
-}
-
-#header {
-	text-align: center;
+.navbar {
 	background-color: white;
 	color: black;
-	padding: 18px;
+}
+
+/* phone styles */
+@media (min-width: 375px) {
+	.navbar-header {
+		position: absolute;
+    	transform: scale(0.75) translate(103px, 170px);
+	}
+
+	.header {
+		padding-top: 145px;
+	}
+}
+
+/* small tablet styles */
+@media (min-width: 576px) {
+	.navbar-header {
+		position: absolute;
+		left: 50%;
+    	transform: translate(-50%, 25px);
+	}
+
+	.header {
+		padding-top: 70px;
+	}
+}
+
+.header {
+	background-color: white;
+	text-align: center;
 	border-bottom: 6px solid grey;
 }
 
-#logo {
-	position: absolute;
-	top: 20px;
-	left: 40px;
-	display: inline-block;
-	cursor: pointer;
+.title {
+	text-align: center;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 60px;
+	color: black;
+	font-weight: bold;
 }
 
-#panda_logo {
-	margin-left: -12px;
-	display: inline-block;
-}
-
-#description {
+.description {
 	text-align: center;
 	font-family: 'Questrial', sans-serif;
 	font-size: 25px;
-	font-weight: normal;
 	line-height: 29px;
 }
 
-#background {
+.container {
 	background-color: white;
-	padding: 35px;
-	margin-left: 15%;
-	margin-right: 15%;
-	overflow: hidden;
 }
 
 .detail_headers {
@@ -66,32 +70,10 @@ body {
 .detail_bio {
 	font-family: 'Questrial', sans-serif;
 	font-size: 25px;
-	font-weight: normal;
 }
 
-#team {
-	margin-left: 10%;
-	line-height: 25px;
-}
-
-#roles {
-	margin-left: 60%;
-	line-height: 30px;
-}
-
-#timeline {
-	margin-left: 10%;
-	line-height: 25px;
-}
-
-#deliverables {
-	margin-left: 60%;
-	line-height: 30px;
-}
-
-#tools {
-	margin-left: 10%;
-	line-height: 30px;
+hr {
+	border: 2px solid grey;
 }
 
 a:link, a:visited {
@@ -99,120 +81,94 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-	color: #800020;
-}
-
-hr {
-	border: 2px solid grey;
+	color: grey;
 }
 
 .proj_title {
-	text-align: left;
-	margin-left: 10%;
 	font-family: 'Fjalla One', sans-serif;
 	font-size: 300%;
 	font-weight: bold;
 }
 
 .info {
-	text-align: left;
-	margin-left: 40%;
 	font-family: 'Questrial', sans-serif;
 	font-size: 20px;
-	font-weight: normal;
 	line-height: 23px;
+	text-align: left;
 }
 
 .list_headers {
-	text-align: left;
-	margin-left: 10%;
 	font-family: 'Fjalla One', sans-serif;
 	font-size: 35px;
-	font-weight: normal;
 	line-height: 55px;
 }
 
-.row{
-	display: flex;
-}
-
-.column {
-	flex: 33.33%;
-	padding: 5px;
-}
-
-.left_img {
-	float: left;
-	margin-left: 5%;
-	border: 1px solid black;
-}
-
-.right_img {
-	float: right;
-	margin-right: 5%;
-	border: 1px solid black;
-}
-
-#spec_right_img {
-	float: right;
-	margin-right: 22.5%;
-	border: 1px solid black;
-}
-
-.last_img {
-	float: left;
-	margin-left: 28%;
-	border: 1px solid black;
-}
-
-.left_img_headers {
-	text-align: center;
+.img_headers {
 	font-family: 'Fjalla One', sans-serif;
 	font-size: 30px;
-	font-weight: normal;
 }
 
-.right_img_headers {
-	text-align: center;
-	font-family: 'Fjalla One', sans-serif;
-	font-size: 30px;
-	font-weight: normal;
+.imgs {
+	border: 1px solid black;
+}
+
+/* phone styles */
+@media (min-width: 375px) {
+    .portrait_img {
+    	max-height: 250px;
+    }
+}
+
+/* small tablet styles */
+@media (min-width: 576px) {
+    .portrait_img {
+    	max-height: 120px;
+    }
+}
+
+/* medium tablet styles */
+@media (min-width: 767px) {
+    .portrait_img {
+    	max-height: 170px;
+    }
+}
+
+/* large tablet styles */
+@media (min-width: 992px) {
+    .portrait_img {
+    	max-height: 280px;
+    }
+}
+
+/* desktop styles */
+@media (min-width: 1200px) {
+    .portrait_img {
+    	max-height: 320px;
+    }
 }
 
 a.page_switch:link, a.page_switch:visited {
-	color: black;
+	color: blue;
 	text-decoration: none;
 	display: inline-block;
 }
 
 a.page_switch:hover, a.page_switch:active {
-	color: #800020;
+	color: grey;
 }
 
-.footer_info {
-	text-align: left;
-	margin-left: 30%;
+.switches {
 	font-family: 'Questrial', sans-serif;
 	font-size: 20px;
-	font-weight: normal;
 }
 
-#footer {
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	padding: 0.5rem;
-	width: 100%;
-	background-color: grey;
-	color: black;
+.footer {
+	background-color: white;
+	border-top: 6px solid grey;
 }
 
-#footer_copyright {
-	bottom: 0px;
-	margin-left: 15%;
-	position: relative;
+.footer_copyright {
 	font-family: 'Fjalla One', sans-serif;
-	font-size: 20px;
-	font-weight: normal;
+	font-size: 22px;
+	color: black;
 }
