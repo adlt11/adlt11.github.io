@@ -76,7 +76,7 @@ a.img_link:hover {
 /* phone styles */
 @media (min-width: 375px) {
     .profile_bio { 
-        font-size: 10px; 
+        font-size: 20px; 
     }
      .title {
         font-size: 50px;
