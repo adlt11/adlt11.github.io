@@ -24,7 +24,7 @@ body {
 }
 
 /* small tablet styles */
-@media (min-width: 576px) {
+@media (min-width: 768px) {
 	.navbar-header {
 		position: absolute;
 		left: 50%;
@@ -120,30 +120,23 @@ a:hover, a:active {
 }
 
 /* small tablet styles */
-@media (min-width: 576px) {
+@media (min-width: 768px) {
     .portrait_img {
-    	max-height: 120px;
-    }
-}
-
-/* medium tablet styles */
-@media (min-width: 767px) {
-    .portrait_img {
-    	max-height: 170px;
+    	max-height: 180px;
     }
 }
 
 /* large tablet styles */
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
     .portrait_img {
-    	max-height: 280px;
+    	max-height: 250px;
     }
 }
 
-/* desktop styles */
+/* laptop styles */
 @media (min-width: 1200px) {
     .portrait_img {
-    	max-height: 320px;
+    	max-height: 300px;
     }
 }
 

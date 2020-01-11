@@ -1,172 +1,180 @@
 html {
-	scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
-	background-color: #69c8a1;
+    background-color: #69c8a1;
 }
 
 .navbar {
-	background-color: white;
-	border-left: 5px solid grey;
-	border-top: 5px solid grey;
-	border-right: 5px solid grey;
+    background-color: white;
+    border-left: 5px solid grey;
+    border-top: 5px solid grey;
+    border-right: 5px solid grey;
 }
 
 .navbar-toggler {
-	background-color: #d3d3d3;
+    background-color: #d3d3d3;
 }
 
 .btn-grey:link, .btn-grey:visited {
-	background-color: #d3d3d3;
-	color: black;
-	font-family: 'Fjalla One', sans-serif;
+    background-color: #d3d3d3;
+    color: black;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 .btn-grey:hover, .btn-grey:active {
-	background-color: black;
-	color: white;
+    background-color: black;
+    color: white;
 }
 
 .title {
-	text-align: center;
-	color: black;
-	font-family: 'Fjalla One', sans-serif;
-	font-size: 65px;
+    text-align: center;
+    color: black;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 65px;
 }
 
 .name {
-	text-align: center;
-	background-color: white;
-	font-family: 'Fjalla One', sans-serif;
-	font-size: 70px;
-	padding-top: 25px;
-	border-left: 5px solid grey;
-	border-bottom: 5px solid grey;
-	border-right: 5px solid grey;
+    text-align: center;
+    background-color: white;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 70px;
+    padding-top: 25px;
+    border-left: 5px solid grey;
+    border-bottom: 5px solid grey;
+    border-right: 5px solid grey;
 }
 
 #projects {
-	padding-top: 50px;
+    padding-top: 50px;
 }
 
 .proj_imgs {
-	padding-top: 30px;
+    padding-top: 30px;
 }
 
 a.img_link:hover {
-	opacity: 0.5;
-	filter: alpha(opacity=50);
+    opacity: 0.5;
+    filter: alpha(opacity=50);
 }
 
 #about_me {
-	padding-top: 70px;
+    padding-top: 70px;
 }
 
 .about_itms {
-	padding-top: 40px;
+    padding-top: 40px;
 }
 
 .profile_bio {
-	font-family: 'Questrial', sans-serif;
-	font-size: 22px;
-	line-height: normal;
+    font-family: 'Questrial', sans-serif;
+    font-size: 22px;
+    line-height: normal;
 }
 
-@media (min-width: 576px) {
+/* phone styles */
+@media (min-width: 375px) {
     .profile_bio { 
-    	font-size: 10px; 
+        font-size: 10px; 
     }
      .title {
-     	font-size: 50px;
+        font-size: 50px;
     }
 
     .footer_title {
-     	font-size: 50px;
+        font-size: 50px;
     }
 
      .name {
-    	font-size: 55px;
+        font-size: 55px;
     }
 }
+
+/* small tablet styles */
 @media (min-width: 768px) {
     .profile_bio { 
-    	font-size: 14px; 
+        font-size: 14px; 
     }
 
     .title {
-    	font-size: 55px;
+        font-size: 55px;
     }
 
     .footer_title {
-    	font-size: 55px;
+        font-size: 55px;
     }
 
     .name {
-    	font-size: 60px;
+        font-size: 60px;
     }
 }
-@media (min-width: 992px) {
+
+
+/* large tablet styles */
+@media (min-width: 1024px) {
     .profile_bio { 
-    	font-size: 18px; 
+        font-size: 18px; 
     }
 
     .title {
-    	font-size: 60px;
+        font-size: 60px;
     }
 
     .footer_title {
-    	font-size: 60px;
+        font-size: 60px;
     }
 
     .name {
-    	font-size: 65px;
+        font-size: 65px;
     }
 }
+
+/* laptop styles */
 @media (min-width: 1200px) {
     .profile_bio { 
-    	font-size: 22px; 
+        font-size: 22px; 
     }
 
     .title {
-    	font-size: 65px;
+        font-size: 65px;
     }
 
     .footer_title {
-    	font-size: 65px;
+        font-size: 65px;
     }
 
     .name {
-    	font-size: 70px;
+        font-size: 70px;
     }
 }
 
 .footer {
-	background-color: white;
-	border: 5px solid grey;
+    background-color: white;
+    border: 5px solid grey;
 }
 
 .footer_title {
-	font-family: 'Fjalla One', sans-serif;
-	font-size: 65px;
-	color: black;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 65px;
+    color: black;
 }
 
 .footer_email .footer_linked_in {
-	font-size: 24px;
-	padding-top: 80px;
+    font-size: 24px;
+    padding-top: 80px;
 }
 
 a:link, a:visited {
-	color: black;
+    color: black;
 }
 
 a:hover, a:active {
-	color: grey;
+    color: grey;
 }
 
 .footer_copyright {
-	font-family: 'Fjalla One', sans-serif;
-	font-size: 22px;
-	color: black;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 22px;
+    color: black;
 }
