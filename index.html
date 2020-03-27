@@ -5,27 +5,35 @@
 
   <head>
     <meta charset="utf-8">
-    <meta name="author" content="Alonso De La Torre Vega"/>
-	<meta name="description" content="Front page of my portfolio. It's the first page people see when they enter my website."/>
+    <meta name="author" content="Alonso De La Torre Vega">
+    <meta name="description" content="Front page of my portfolio. It's the first page people see when they enter my website.">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS-->
+    <!-- Load JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <!-- Bootstrap core CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <!-- Animate CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    
     <!-- Personal CSS -->
-    <link rel="stylesheet" href="index_styles.css">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fjalla+One|Questrial&display=swap">
-
-	<script src="https://kit.fontawesome.com/52309b03c3.js" crossorigin="anonymous"></script>
-	<!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/index_styles.css">
+    
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Questrial&display=swap">
+    
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/52309b03c3.js" crossorigin="anonymous"></script>
 
 	<title>Portfolio</title>
   </head>
 
   <body>
+	<!-- Back-to-Top button -->
+	<button id="back_to_top_btn"><i class="fa fa-angle-double-up"></i></button>
+
   	<nav class="navbar navbar-expand-md navbar-default navbar-light static-top">
   		<a class="navbar-brand" href="index.html">
     	<img src="PortfolioPictures/logo.jpg" width="150" height="100" alt="My personal logo for my portfolio.">
@@ -69,13 +77,13 @@
     	</div>
 
     	<div class="row">
-    		<div class="col-sm-12 title" id="about_me">
+    		<div class="col-sm-12 title">
     			About Me
     		</div>
     	</div>
 
     	<div class="row">
-    		<div class="col-sm-5 about_itms py-sm-5">
+    		<div class="col-sm-5 about_itms py-sm-5" id="about_me">
 				<img src="PortfolioPictures/Portfolio_Pic.jpg" class="img-fluid" alt="Responsive portfolio profile picture."/>
     		</div>
 
@@ -118,6 +126,9 @@
     			</div>
     		</div>
     	</div>
-    </div>
+	</div>
+	
+	<!-- Back-to-Top button JavaScript -->
+    <script src="js/back_to_top_button.js"></script>
   </body>
 </html>

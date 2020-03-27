@@ -70,7 +70,7 @@ body {
 
 .title {
 	text-align: center;
-	font-family: 'Fjalla One', sans-serif;
+	font-family: 'Questrial', sans-serif;
 	font-size: 60px;
 	color: black;
 	font-weight: bold;
@@ -88,7 +88,7 @@ body {
 }
 
 .detail_headers {
-	font-family: 'Fjalla One', sans-serif;
+	font-family: 'Questrial', sans-serif;
 	font-size: 40px;
 	font-weight: bold;
 }
@@ -107,11 +107,11 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-	color: grey;
+	color: rgb(175, 49, 49);
 }
 
 .proj_title {
-	font-family: 'Fjalla One', sans-serif;
+	font-family: 'Questrial', sans-serif;
 	font-size: 300%;
 	font-weight: bold;
 }
@@ -124,7 +124,7 @@ a:hover, a:active {
 }
 
 .list_headers {
-	font-family: 'Fjalla One', sans-serif;
+	font-family: 'Questrial', sans-serif;
 	font-size: 35px;
 	line-height: 55px;
 }
@@ -134,7 +134,7 @@ a:hover, a:active {
 }
 
 .img_headers {
-	font-family: 'Fjalla One', sans-serif;
+	font-family: 'Questrial', sans-serif;
 	font-size: 30px;
 }
 
@@ -145,7 +145,7 @@ a.page_switch:link, a.page_switch:visited {
 }
 
 a.page_switch:hover, a.page_switch:active {
-	color: grey;
+	color: rgb(175, 49, 49);
 }
 
 .switches {
@@ -159,7 +159,73 @@ a.page_switch:hover, a.page_switch:active {
 }
 
 .footer_copyright {
-	font-family: 'Fjalla One', sans-serif;
+	font-family: 'Questrial', sans-serif;
 	font-size: 22px;
 	color: black;
 }
+
+#back_to_top_btn {
+    display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	font-size: 30px;
+	width: 60px;
+	height: 60px;
+	background-color: white;
+	color: black;
+	cursor: pointer;
+	outline: none;
+	border: 3px solid #000;
+	border-radius: 50%;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
+	transition-property: background-color, color;
+}
+
+#back_to_top_btn:hover, #back_to_top_btn:focus {
+	background-color: #000;
+	color: #fff;
+	cursor: pointer;
+}
+
+#back_to_top_btn:active {
+  background-color: rgb(128, 128, 128);
+  border: 3px solid rgb(128, 128, 128);
+}
+
+/* CSS Animations */
+.btnEntrance {
+	animation-duration: 0.5s;
+	animation-fill-mode: both;
+	animation-name: btnEntrance;
+  }
+  
+  /* fadeInUp */
+  @keyframes btnEntrance {
+	from {
+	  opacity: 0;
+	  transform: translate3d(0, 100%, 0);
+	}
+	to {
+	  opacity: 1;
+	  transform: translate3d(0, 0, 0);
+	}
+  }
+  
+  .btnExit {
+	animation-duration: 0.25s;
+	animation-fill-mode: both;  
+	animation-name: btnExit;
+  }
+  
+  /* fadeOutDown */
+  @keyframes btnExit {
+	from {
+	  opacity: 1;
+	}
+	to {
+	  opacity: 0;
+	  transform: translate3d(0, 100%, 0);
+	}
+  }
