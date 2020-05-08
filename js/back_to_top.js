@@ -11,10 +11,4 @@ $( document ).ready( () => {
       $('.back_to_top').fadeOut( duration );
     }
   });
-
-  $('.back_to_top').click( (event) => {
-    event.preventDefault();
-    $('html, body').animate( {scrollTop: 0}, duration );
-    return false;
-  })
 });

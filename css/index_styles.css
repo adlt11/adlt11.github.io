@@ -3,14 +3,12 @@ html {
 }
 
 body {
-    background-color: #69c8a1;
+    background-color: #298fca;
 }
 
 .navbar {
     background-color: white;
-    border-left: 5px solid grey;
-    border-top: 5px solid grey;
-    border-right: 5px solid grey;
+    
 }
 
 .navbar-toggler {
@@ -41,9 +39,7 @@ body {
     font-family: 'Questrial', sans-serif;
     font-size: 70px;
     padding-top: 25px;
-    border-left: 5px solid grey;
-    border-bottom: 5px solid grey;
-    border-right: 5px solid grey;
+    border-bottom: 5px solid black;
 }
 
 #projects {
@@ -64,7 +60,7 @@ a.img_link:hover {
     padding-top: 70px;
 }
 
-.about_itms {
+.about_items {
     padding-top: 40px;
 }
 
@@ -152,7 +148,7 @@ a.img_link:hover {
 
 .footer {
     background-color: white;
-    border: 5px solid grey;
+    border-top: 5px solid black;
 }
 
 .footer_title {
@@ -171,7 +167,7 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-    color: rgb(175, 49, 49);
+    color: rgb(199, 55, 55);
 }
 
 .footer_copyright {
@@ -200,5 +196,5 @@ a.back_to_top i {
 }
 
 a.back_to_top:hover, a.back_to_top:active {
-	color: rgb(175, 49, 49);
+	color: rgb(199, 55, 55);
 }
