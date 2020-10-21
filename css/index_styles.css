@@ -33,6 +33,13 @@ body {
     font-size: 65px;
 }
 
+.proj_title {
+    text-align: center;
+    color: black;
+    font-family: 'Questrial', sans-serif;
+    font-size: 45px;
+}
+
 .name {
     text-align: center;
     background-color: white;
